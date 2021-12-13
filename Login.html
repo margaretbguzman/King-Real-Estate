@@ -6,9 +6,10 @@
         <h2>Login</h2>
     </head>
     <body>
-        <form action="post" id="login">
-            <input id="user" placeholder="username">
-            <input id="pass" placeholder="password">
+        <form action="loginaction.php" method="post" id="login">
+            <input name="user" id="user" placeholder="username">
+            <input name="pass" id="pass" placeholder="password">
+            <button id="loginbutton">Login</button>
         </form>
     </body>
 </html>
