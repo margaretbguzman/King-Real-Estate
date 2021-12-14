@@ -1,5 +1,5 @@
 <?php
-$user = $_GET['user'];
-$pass = $_GET['pass'];
+$user = $_POST['user'];
+$pass = $_POST['pass'];
 echo "Welcome $user.";
 ?>
